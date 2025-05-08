@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
-import { supabase } from './supabaseClient' // Ensure this path is correct
-import './App.css' // We'll add some styles here
+import { supabase } from './supabaseClient'
+import './App.css' 
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -107,7 +107,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Supabase To-Do List (Vite + React)</h1>
+      <h1>To-Do</h1>
 
       <form onSubmit={handleAddTask} className="add-task-form">
         <input
